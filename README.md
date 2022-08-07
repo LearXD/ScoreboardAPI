@@ -3,7 +3,7 @@ An implementation of PocketMine to facilitate the creation of Scoreboards
 
 ## Usage
 
-````
+````php
 // CREATE WINDOW
 
 ScoreboardManager::sendScoreboard($player,'teste','Teste', 
