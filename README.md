@@ -6,12 +6,12 @@ An implementation of PocketMine to facilitate the creation of Scoreboards
 ````php
 // CREATE SCOREBOARD
 
-ScoreboardManager::sendScoreboard($player,'teste','Teste', 
-[
-  1 => "Line 1",
-  2 => "Empty Line",
-  15 => "Line 15",
-]
+ScoreboardManager::sendScoreboard($player,  'socreboard-objective',  'DiplayName', 
+  [
+    1 => "Line 1",
+    2 => "", // EMPTY LINE <:O
+    15 => "Line 15",
+  ]
 );
 
 
