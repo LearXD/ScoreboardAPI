@@ -18,7 +18,7 @@ ScoreboardManager::sendScoreboard($player,  'socreboard-objective',  'DiplayName
 // GET/REMOVE SCOREBOARD
 
 /** @var Player $player */
-if($scoreboard = ScoreboardManager::getPlayerScoreboard($player) {
+if($scoreboard = ScoreboardManager::getPlayerScoreboard($player)) {
   $scoreboard->remove(); // TO REMOVE
 }
 
