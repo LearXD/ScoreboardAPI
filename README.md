@@ -4,7 +4,7 @@ An implementation of PocketMine to facilitate the creation of Scoreboards
 ## Usage
 
 ````php
-// CREATE WINDOW
+// CREATE SCOREBOARD
 
 ScoreboardManager::sendScoreboard($player,'teste','Teste', 
 [
@@ -15,7 +15,7 @@ ScoreboardManager::sendScoreboard($player,'teste','Teste',
 );
 
 
-// GET/REMOVE WINDOW
+// GET/REMOVE SCOREBOARD
 
 /** @var Player $player */
 if($scoreboard = ScoreboardManager::getPlayerScoreboard($player) {
